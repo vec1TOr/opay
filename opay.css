@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    border: 1px solid green;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    gap: 32em;
+    /* position: fixed; */
+}
+.navbar{
+    border: 1px solid yellow;
+    width: 600px;
+    height: 40px;
+    align-self: end; 
+}
+.logo{
+    border: 1px solid;
+    width: 85px;
+    height: 40px;
+    background-image: url(./image\ 1/SwIVELvL0Hkov.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-self: end;
+    margin-left: 4%;
+}
+.drop-down{
+    position: relative;
+}
+.drop-menu{
+    position: absolute;
+    display: none;
+    border: 1px solid;
+    width: 130px;
+    height: 124px;
+    text-align: center;
+}
+.drop-down:hover .drop-menu{
+    display: block;
+}
+.drop-menu:hover a{
+    color: rgb(50, 238, 194);
+    background-color: rgba(153, 243, 213, 0.537);
+    
+}
+li{
+    display: inline-block;
+}
+li {
+    margin: 15px;
+}
+.mini{
+    color: rgb(50, 238, 194);
+}
+a{
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(56, 61, 57);   
+}
+.vector{
+    width: 12px;
+    height: 8px;
+}
+.body1{
+    width: 100%;
+    height: 30vh;
+    background-image: url(./image\ 1/mask-bg.png);
+    background:linear-gradient(black, transparent, green);
+}
+.first-text{
+    font-size: 50px;
+    color: #210f60;
+}
+.body1{
+    display: flex;
+}
+.main-body{
+    margin-left: 4%;
+    margin-top: 6%;
+}
+.bodyimg{
+    width: 268px;
+    height: 15px;
+    margin-left: 40%;
+    margin-top: 10px;
+}
+span{
+    color: #1DC99B;
+}
+
+.text-1{
+    font-size: 20px;
+    color: #210f60;
+    margin-top: 5%;
+    padding-bottom: 5%;
+}
+.frame{
+    border: 1px solid;
+    width: 342px;
+    height: 56px;
+    display: flex;
+    gap: 1em;
+    margin-top: 7%;
+}
+.body-pic{
+    border: 1px solid;
+    width: 572px;
+    height: 610px;
+    background-image: url(./image\ 1/group-header.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
